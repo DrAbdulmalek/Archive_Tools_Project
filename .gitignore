@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Processing
+*.log
+*.tmp
+*.temp
+.progress.pkl
+*.bak
+
+# Sensitive
+*.key
+*.pem
+*.env
+credentials.json
+*.token
+
+# Generated outputs
+*_extracted/
+*_split/
+*_contents.txt
+
+# Large files
+*.pdf
+*.zip
+*.rar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tar.xz
+*.gz
+
+# Models
+models/
+*.pt
+*.pth
+*.h5
+*.pkl
+*.pickle
