@@ -1,54 +1,54 @@
-```gitignore
-# Python
+```
+# Dependencies
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
+.venv/
+venv/
 env/
-venv/
-.venv/
-.ENV
-.env
-.env.*
-.env.local
-.venv/
-venv/
 ENV/
 
-# Byte-compiled / optimized / DLL files
-*.pyc
-*.pyo
-*.pyd
-*.so
+# Build and distribution artifacts
+build/
+dist/
+*.egg
 *.egg-info/
-*.dist-info/
+*.so
+*.dylib
+*.dll
 
-# Coverage reports
-.coverage
-htmlcov/
-.coverage.*
-.coverage.xml
-*.coveragerc
-
-# Unit test / coverage reports
-nosetests.xml
-coverage.xml
+# Logs
 *.log
 
-# Environment variables
+# Environment files
 .env
 .env.local
-.env.*
+*.env.*
 
-# IDE
+# Editor files
 .vscode/
 .idea/
 *.swp
 *.swo
-*.tmp
-
-# OS
+*~
 .DS_Store
+Thumbs.db
+
+# Testing and coverage
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.tox/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 ```
