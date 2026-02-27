@@ -1,64 +1,54 @@
-# Python
+```
+# Dependencies
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
+*.pyc
+*.pyo
+*.pyd
+.venv/
 venv/
+env/
 ENV/
-.venv
-*.egg-info/
-dist/
-build/
-*.egg
 
-# IDE
+# Build and distribution artifacts
+build/
+dist/
+*.egg
+*.egg-info/
+*.so
+*.dylib
+*.dll
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor files
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-
-# OS
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# Processing
-*.log
-*.tmp
-*.temp
-.progress.pkl
-*.bak
+# Testing and coverage
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.tox/
 
-# Sensitive
-*.key
-*.pem
-*.env
-credentials.json
-*.token
-
-# Generated outputs (local only)
-*_extracted_local/
-*_split_local/
-
-# Keep processed content files in data/ and docs/
-
-# Large files
-*.pdf
-*.zip
-*.rar
-*.tar.gz
-*.tgz
-*.tar.bz2
-*.tar.xz
-*.gz
-
-# Models
-models/
-*.pt
-*.pth
-*.h5
-*.pkl
-*.pickle
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+```
